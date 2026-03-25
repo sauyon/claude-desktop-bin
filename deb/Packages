@@ -1,0 +1,24 @@
+Package: claude-desktop-bin
+Version: 1.1.8629-2
+Architecture: amd64
+Maintainer: Claude Desktop Linux Community <claude-desktop-linux@users.noreply.github.com>
+Installed-Size: 346220
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, libatspi2.0-0, libdrm2, libgbm1, libasound2
+Recommends: libnotify-bin
+Suggests: xdotool, scrot, xclip, wmctrl, socat, hyprland
+Filename: amd64/claude-desktop-bin_1.1.8629-2_amd64.deb
+Size: 100144796
+MD5sum: 54c6904fb411fe6651d34ccd776c8bbc
+SHA1: 71102cebbe1152e9406e6b8c7f40d20f96cb0ae0
+SHA256: 9ea947606af06ff1be89fb87eeee2375a67c5d22cc67c681688198260072d795
+Section: utils
+Priority: optional
+Homepage: https://claude.ai
+Description: Claude AI Desktop Application
+ Claude is an AI assistant created by Anthropic to be helpful,
+ harmless, and honest. This desktop application provides native
+ access to Claude with features including conversational AI,
+ code generation, document understanding, and system tray integration.
+ .
+ Note: This is an unofficial Linux port. Requires an Anthropic account.
+

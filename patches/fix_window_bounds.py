@@ -54,6 +54,8 @@ BOUNDS_FIX_JS = (
     # Hook discrete state-change events
     b'["maximize","unmaximize","enter-full-screen","leave-full-screen"]'
     b'.forEach(function(__wb_ev){__wb_w.on(__wb_ev,__wb_fasc)});'
+    # Hook resize directly (fires continuously during drag; no setTimeout needed)
+    b'__wb_w.on("resize",__wb_fcb);'
     # Hook moved event with size-change guard (for KWin corner-snap)
     b'var __wb_lsz=[0,0];'
     b'__wb_w.on("moved",function(){'
